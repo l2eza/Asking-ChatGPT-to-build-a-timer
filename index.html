@@ -1,9 +1,15 @@
 <!DOCTYPE html>
+<!-- The <!DOCTYPE> declaration specifies the version of HTML that the document is using. -->
 <html>
+<!-- The <html> element defines the root of an HTML document. -->
   <head>
+    <!-- The <head> element contains meta information about the document, such as its title, and links to external files like stylesheets and scripts. -->
     <script defer src="index.js"></script>
+    <!-- The <script> element is used to embed or reference JavaScript code in an HTML document. The "defer" attribute tells the browser to wait until the page has finished parsing before executing the script. The "src" attribute specifies the path to the JavaScript file. -->
     <title>Timer</title>
+    <!-- The <title> element specifies the title of the document, which appears in the browser's title bar or tab. -->
     <style>
+      /* The <style> element is used to define styles for HTML elements. */
       body {
         font-family: Arial, sans-serif;
         text-align: center;
@@ -34,17 +40,20 @@
         margin-top: 20px;
       }
     </style>
+    <!-- The CSS styles define the appearance of the HTML elements. -->
   </head>
 
   <body>
+    <!-- The <body> element contains the visible content of the HTML document. -->
     <h1>Timer</h1>
+    <!-- The <h1> element defines a heading. -->
     <div id="timer">00:00:00</div>
+    <!-- The <div> element defines a container for HTML elements, and the "id" attribute specifies a unique identifier for the element. -->
     <div id="buttons">
       <button id="start">Start</button>
       <button id="stop">Stop</button>
       <button id="reset">Reset</button>
     </div>
-
-    
+    <!-- The <button> element defines a clickable button, and the "id" attribute specifies a unique identifier for the element. -->
   </body>
 </html>

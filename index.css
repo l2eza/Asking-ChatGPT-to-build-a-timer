@@ -1,30 +1,35 @@
+/* The CSS code defines the style for various HTML elements. */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  #timer {
-    font-size: 60px;
-    margin-top: 50px;
-  }
-  
-  button {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #3e8e41;
-  }
-  
-  #buttons {
-    margin-top: 20px;
-  }
-  
+  /* Defines the font family and alignment for the body element. */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#timer {
+  /* Defines the font size and margin for the timer element. */
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+button {
+  /* Defines the font size, margin, padding, border radius, background color, text color, border, and cursor for all button elements. */
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  /* Defines the background color of a button element when the mouse hovers over it. */
+  background-color: #3e8e41;
+}
+
+#buttons {
+  /* Defines the margin for the buttons container element. */
+  margin-top: 20px;
+}
